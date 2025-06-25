@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+}
+
+h1::after {
+  content: "Cadastro";
+  position: absolute;
+  top: 70%;
+  right: 30px;
+  font-size: 14px;
+  color: #84b974;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  width: 300px;
+}
+input {
+  padding: 7px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #84b974;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 20px;
+}
